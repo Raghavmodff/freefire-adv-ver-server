@@ -1,0 +1,18 @@
+
+{
+  "functions": {
+    "ver.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/ver.php",
+      "dest": "/ver.php"
+    },
+    {
+      "src": "/trial/ver.php",
+      "dest": "/ver.php"
+    }
+  ]
+}
